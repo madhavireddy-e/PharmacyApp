@@ -1,0 +1,34 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build-api",
+            "type": "process",
+            "command": "dotnet",
+            "args": [
+                "build",
+                "${workspaceFolder}/PharmacyApi/PharmacyApi.csproj"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "start-frontend",
+            "type": "shell",
+            "command": "npm run dev",
+            "options": {
+                "cwd": "${workspaceFolder}/pharmacy-web"
+            },
+            "isBackground": true,
+            "problemMatcher": {
+                "pattern": {
+                    "regexp": "^$"
+                },
+                "background": {
+                    "activeOnStart": true,
+                    "beginsPattern": "VITE",
+                    "endsPattern": "ready in"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,119 @@
+[
+  {
+    "id": 1,
+    "name": "Paracetamol 500mg",
+    "notes": "General purpose fever and pain relief. Fast moving, keep at the counter.",
+    "expiryDate": "2027-03-31T00:00:00",
+    "quantity": 120,
+    "price": 24.50,
+    "brand": "Cipla"
+  },
+  {
+    "id": 2,
+    "name": "Amoxicillin 250mg",
+    "notes": "Antibiotic. Prescription only. Return to distributor if unsold this month.",
+    "expiryDate": "2026-08-25T00:00:00",
+    "quantity": 40,
+    "price": 86.00,
+    "brand": "Sun Pharma"
+  },
+  {
+    "id": 3,
+    "name": "Cetirizine 10mg",
+    "notes": "Antihistamine. Reorder placed with the distributor on 10-Aug-2026.",
+    "expiryDate": "2027-01-15T00:00:00",
+    "quantity": 6,
+    "price": 32.75,
+    "brand": "Dr Reddy\u0027s"
+  },
+  {
+    "id": 4,
+    "name": "Azithromycin 500mg",
+    "notes": "Both alerts apply here: expiring soon AND low stock. Row must show red, not yellow.",
+    "expiryDate": "2026-08-30T00:00:00",
+    "quantity": 8,
+    "price": 118.40,
+    "brand": "Alkem"
+  },
+  {
+    "id": 5,
+    "name": "Ibuprofen 400mg",
+    "notes": "Anti-inflammatory. Advise patients to take after food.",
+    "expiryDate": "2026-12-10T00:00:00",
+    "quantity": 75,
+    "price": 41.20,
+    "brand": "Abbott"
+  },
+  {
+    "id": 6,
+    "name": "Ambroxol Cough Syrup 100ml",
+    "notes": "Already past its expiry date - pull from the shelf and log for disposal.",
+    "expiryDate": "2026-07-10T00:00:00",
+    "quantity": 15,
+    "price": 95.00,
+    "brand": "Zydus"
+  },
+  {
+    "id": 7,
+    "name": "Vitamin D3 60000 IU",
+    "notes": "Weekly sachet. Low stock, but a long shelf life.",
+    "expiryDate": "2028-02-28T00:00:00",
+    "quantity": 3,
+    "price": 54.90,
+    "brand": "Mankind"
+  },
+  {
+    "id": 8,
+    "name": "Metformin 500mg",
+    "notes": "Diabetes maintenance. Steady monthly demand from regular patients.",
+    "expiryDate": "2027-09-30T00:00:00",
+    "quantity": 200,
+    "price": 18.60,
+    "brand": "USV"
+  },
+  {
+    "id": 9,
+    "name": "ORS Sachet Orange",
+    "notes": "Rehydration salts. Stock up before summer.",
+    "expiryDate": "2027-06-30T00:00:00",
+    "quantity": 250,
+    "price": 21.00,
+    "brand": "FDC"
+  },
+  {
+    "id": 10,
+    "name": "Insulin Glargine 100IU/ml",
+    "notes": "Cold chain item, store at 2-8 C. Expiring soon and low stock.",
+    "expiryDate": "2026-09-05T00:00:00",
+    "quantity": 5,
+    "price": 745.00,
+    "brand": "Biocon"
+  },
+  {
+    "id": 11,
+    "name": "Pantoprazole 40mg",
+    "notes": "Acidity. Commonly dispensed alongside long courses of painkillers.",
+    "expiryDate": "2026-11-20T00:00:00",
+    "quantity": 60,
+    "price": 63.30,
+    "brand": "Torrent"
+  },
+  {
+    "id": 12,
+    "name": "Salbutamol Inhaler 200MD",
+    "notes": "Asthma reliever. Down to single digits, reorder this week.",
+    "expiryDate": "2027-04-30T00:00:00",
+    "quantity": 9,
+    "price": 152.75,
+    "brand": "Cipla"
+  },
+  {
+    "id": 13,
+    "name": "Digene",
+    "notes": "Antacid",
+    "expiryDate": "2027-06-25T00:00:00",
+    "quantity": 206,
+    "price": 30,
+    "brand": "Cipla"
+  }
+]

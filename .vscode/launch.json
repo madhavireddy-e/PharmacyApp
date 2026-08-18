@@ -1,0 +1,37 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run API",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-api",
+            "program": "${workspaceFolder}/PharmacyApi/bin/Debug/net8.0/PharmacyApi.dll",
+            "cwd": "${workspaceFolder}/PharmacyApi",
+            "stopAtEntry": false,
+            "env": {
+                "ASPNETCORE_ENVIRONMENT": "Development",
+                "ASPNETCORE_URLS": "http://localhost:5053"
+            },
+            "serverReadyAction": {
+                "action": "openExternally",
+                "pattern": "\\bNow listening on:\\s+(https?://\\S+)",
+                "uriFormat": "%s/swagger"
+            }
+        },
+        {
+            "name": "Open Frontend in Chrome",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:5173",
+            "webRoot": "${workspaceFolder}/pharmacy-web"
+        }
+    ],
+    "compounds": [
+        {
+            "name": "Run API + Frontend",
+            "configurations": ["Run API", "Open Frontend in Chrome"],
+            "preLaunchTask": "start-frontend"
+        }
+    ]
+}

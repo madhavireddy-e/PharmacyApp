@@ -1,0 +1,17 @@
+# .NET build output
+bin/
+obj/
+
+# Node
+node_modules/
+dist/
+
+# Editor / OS
+.vs/
+.idea/
+.DS_Store
+
+# Local environment files
+*.user
+.env
+.env.local

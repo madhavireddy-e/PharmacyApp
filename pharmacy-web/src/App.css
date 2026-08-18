@@ -1,0 +1,156 @@
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 18px;
+  margin: 0;
+}
+
+/* Form */
+
+.medicine-form {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 15px;
+  margin-bottom: 25px;
+}
+
+.medicine-form h2 {
+  margin-bottom: 15px;
+}
+
+.form-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-width: 150px;
+  margin-bottom: 10px;
+}
+
+.form-field label {
+  font-size: 13px;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.medicine-form input,
+.medicine-form textarea {
+  font-family: inherit;
+  font-size: 14px;
+  padding: 6px;
+  border: 1px solid #bbb;
+  border-radius: 3px;
+}
+
+.medicine-form button {
+  font-size: 14px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 3px;
+  background-color: #2c7a4b;
+  color: #fff;
+  cursor: pointer;
+}
+
+.medicine-form button:hover {
+  background-color: #23623c;
+}
+
+/* List */
+
+.list-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.search {
+  font-size: 14px;
+  padding: 6px;
+  width: 220px;
+  border: 1px solid #bbb;
+  border-radius: 3px;
+}
+
+.legend {
+  font-size: 13px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.legend-item {
+  margin-right: 20px;
+}
+
+.box {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border: 1px solid #999;
+  vertical-align: middle;
+}
+
+.box.red {
+  background-color: #f5a3a3;
+}
+
+.box.yellow {
+  background-color: #f7e07f;
+}
+
+.medicine-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  font-size: 14px;
+}
+
+.medicine-table th,
+.medicine-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.medicine-table th {
+  background-color: #eee;
+}
+
+/* Row colours. Only one class is set at a time - getRowClass() checks
+   the expiry date before the quantity, so red wins over yellow. */
+.row-red {
+  background-color: #f5a3a3;
+}
+
+.row-yellow {
+  background-color: #f7e07f;
+}
+
+.message {
+  padding: 15px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  color: #666;
+}
+
+.error {
+  padding: 10px;
+  background-color: #fdd;
+  border: 1px solid #e99;
+  color: #a00;
+}
